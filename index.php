@@ -5,6 +5,7 @@
   </head>
   <body>
 <?php
+    echo 'test 하기';
     echo phpinfo();   
 ?>
   </body>
