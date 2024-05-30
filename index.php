@@ -36,6 +36,16 @@
     	<div class="item">
 <?php
     include 'drop_down_menu.php';
+                if($_GET == null)
+                {
+                    $category1 = '신선식품';
+                    $category2 = '축산';
+                }else{
+                    $category1 = $_GET['category1'];            
+                    $category2 = $_GET['category2'];
+                }
+                print_r($category1);
+                print_r($category2);
     //echo phpinfo();   
 ?>
       </div>
