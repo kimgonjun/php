@@ -5,6 +5,7 @@
   </head>
   <body>
 <?php
+    include 'drop_down_menu.php';
     echo phpinfo();   
 ?>
   </body>
