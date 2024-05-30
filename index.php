@@ -38,8 +38,8 @@
 	</head>
 	<body>
 
-	<div class="container">
-    	<div class="item">
+	//<div class="container">
+    //	<div class="item">
             
             <?php include 'drop_down_menu.php';
               //  print_r($_GET);
@@ -54,13 +54,13 @@
                 //print_r($category1);
                 //print_r($category2);
             ?>
-        </div>
-        <div class="item">
-		<?php include 'libs.php';?>        
+     //   </div>
+       // <div class="item">
+		//<?php include 'libs.php';?>        
 
-        <?php include "data_read.php";?>        
-        </div>
-	</div>
+        //<?php include "data_read.php";?>        
+      //  </div>
+	//</div>
 
 
 	</body>
